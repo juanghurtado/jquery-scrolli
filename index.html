@@ -1,0 +1,112 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="es-ES" class="ie ie6 ltie9 ltie8 ltie7"><![endif]-->
+<!--[if IE 7]><html lang="es-ES" class="ie ie7 ltie9 ltie8"><![endif]-->
+<!--[if IE 8]><html lang="es-ES" class="ie ie8 ltie9"><![endif]-->
+<!--[if IE 9]><html lang="es-ES" class="ie ie9"><![endif]-->
+<!--[if gt IE 9]><html lang="es-ES" class="ie"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="es-ES">
+<!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  
+  <title>jQuery Scrolli Demo</title>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="demo-assets/styles.css">
+  <link rel="stylesheet" href="css/jquery.scrolli.default.css">
+  
+  <!-- Scripts -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+  <script src="jquery.scrolli.js"></script>
+  <script>
+    jQuery(function() {
+      jQuery('.scrolli').scrolli();
+    });
+  </script>
+</head> 
+<body>
+  <h1><a href="/">Scrolli, a jQuery scroller plugin</a></h1>
+  
+  <div class="scrolli">
+    <div class="scrolli-element">
+      <img src="demo-assets/image-01.jpg" />
+    </div><!-- .scrolli-element -->
+  
+    <div class="scrolli-element">
+      <img src="demo-assets/image-02.jpg" />
+    </div><!-- .scrolli-element -->
+  
+    <div class="scrolli-element">
+      <img src="demo-assets/image-03.jpg" />
+    </div><!-- .scrolli-element -->
+  
+    <div class="scrolli-element">
+      <img src="demo-assets/image-04.jpg" />
+    </div><!-- .scrolli-element -->
+  </div><!-- .scrolli -->
+  
+  <h2 id="what_is_it">What is it?</h2>
+
+  <p>Scrolli is a jQuery plugin for creating scrolled interfaces easily, straight to the point. Need a scroller? Add Scrolli to your web page, write some markup… and it's done!</p>
+
+  <p>Need more control? Don't worry. Scrolli comes with a set of tools to extend it's functionality and adapt it to your needs.</p>
+
+  <h2 id="setup">Setup</h2>
+
+  <p>Download the <a href="https://github.com/juanghurtado/jquery-scrolli/archives/master">latest copy of Scrolli</a> and reference it on your <code>HEAD</code> element:</p>
+
+<pre><code>&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="jquery.scrolli.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  jQuery(function() {
+    jQuery('.scrolli').scrolli();
+  });
+&lt;/script&gt;
+</code></pre>
+  
+  <p>Add the Scrolli CSS default theme to spice it up visually. You don't need to do this if you want to customize Scrolli by yourself:</p>
+
+<pre><code>&lt;link rel="stylesheet" href="css/jquery.scrolli.default.css"&gt;</code></pre>
+
+  <p>Build your scroller with this HTML structure, writing anything you want inside the <code>.scrolli-element</code> blocks:</p>
+
+<pre><code>&lt;div class="scrolli"&gt;
+  &lt;div class="scrolli-element"&gt;
+    &lt;!-- Content for the scroller (Can be anything) --&gt;
+    &lt;img src="images/image-01.jpg" /&gt;
+  &lt;/div&gt;&lt;!-- .scrolli-element --&gt;
+
+  &lt;div class="scrolli-element"&gt;
+    &lt;!-- Content for the scroller (Can be anything) --&gt;
+    &lt;img src="images/image-01.jpg" /&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+  &lt;/div&gt;&lt;!-- .scrolli-element --&gt;
+
+  &lt;div class="scrolli-element"&gt;
+    &lt;!-- Content for the scroller (Can be anything) --&gt;
+    &lt;img src="images/image-03.jpg" /&gt;
+  &lt;/div&gt;&lt;!-- .scrolli-element --&gt;
+
+  &lt;div class="scrolli-element"&gt;
+    &lt;!-- Content for the scroller (Can be anything) --&gt;
+    &lt;img src="images/image-04.jpg" /&gt;
+  &lt;/div&gt;&lt;!-- .scrolli-element --&gt;
+&lt;/div&gt;&lt;!-- .scrolli --&gt;
+</code></pre>
+  
+  <h2>Credits</h2>
+  
+  <ul>
+  <li>Juan G. Hurtado [<a href="mailto:&#x63;&#x72;&#x65;&#x61;&#x74;&#x69;&#x76;&#x6F;&#x40;&#x61;&#x6C;&#x76;&#x61;&#x72;&#x6F;&#x67;&#x72;&#x61;&#x66;&#x69;&#x63;&#x6F;&#x2E;&#x65;&#x73;">hello@juanghurtado.com</a>]</li>
+  <li>Javier Rico [<a href="mailto:&#x63;&#x72;&#x65;&#x61;&#x74;&#x69;&#x76;&#x6F;&#x40;&#x61;&#x6C;&#x76;&#x61;&#x72;&#x6F;&#x67;&#x72;&#x61;&#x66;&#x69;&#x63;&#x6F;&#x2E;&#x65;&#x73;">jrico@zuinqstudio.com</a>]</li>
+  <li>Álvaro Fernández [<a href="mailto:&#x63;&#x72;&#x65;&#x61;&#x74;&#x69;&#x76;&#x6F;&#x40;&#x61;&#x6C;&#x76;&#x61;&#x72;&#x6F;&#x67;&#x72;&#x61;&#x66;&#x69;&#x63;&#x6F;&#x2E;&#x65;&#x73;">creativo@alvarografico.es</a>]</li>
+  </ul>
+</div><!-- #wrapper -->
+</html>

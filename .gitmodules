@@ -1,0 +1,6 @@
+[submodule "tests/jasmine"]
+	path = tests/jasmine
+	url = https://github.com/pivotal/jasmine.git
+[submodule "tests/spec/javascripts/helpers/jasmine-jquery"]
+	path = tests/spec/javascripts/helpers/jasmine-jquery
+	url = https://github.com/velesin/jasmine-jquery.git

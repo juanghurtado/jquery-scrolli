@@ -1,0 +1,78 @@
+/* ----------------------------------------------------------------------------------
+  jQuery Scrolli: Default theme
+
+  Encoding: UTF-8
+  Authors:  
+    Juan G. Hurtado   [hello@juanghurtado.com]
+----------------------------------------------------------------------------------
+	Table of contents
+----------------------------------------------------------------------------------
+  1.SCROLLI
+---------------------------------------------------------------------------------- */
+
+/* =SCROLLI
+---------------------------------------------------------------------------------- */
+.scrolli-wrapper {}
+  
+  .scrolli-wrapper .scrolli-overflow {}
+    
+    .scrolli-wrapper .scrolli-overflow .scrolli {}
+      
+      .scrolli-wrapper .scrolli-overflow .scrolli .scrolli-element-wrapper {}
+        
+      .scrolli-wrapper .scrolli-overflow .scrolli .scrolli-element-wrapper.current {}
+        
+        .scrolli-wrapper .scrolli-overflow .scrolli .scrolli-element {}
+          
+  .scrolli-wrapper .scrolli-pager-left,
+  .scrolli-wrapper .scrolli-pager-right {
+    background: url(../images/scrolli-sprite.png) no-repeat -31px 0;
+    display: block;
+    height: 10px;
+    margin-top: 0.5em;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 10px;
+  }
+  
+  .scrolli-wrapper .scrolli-pager-left {
+    float: left;
+  }
+    
+  .scrolli-wrapper .scrolli-pager-right {
+    background-position: -46px 0;
+    float: right;
+  }
+    
+  .scrolli-wrapper .scrolli-pager {
+    clear: both;
+    margin: 0 25px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: -1em;
+  }
+    
+    .scrolli-wrapper .scrolli-pager .scrolli-pager-item {
+      display: inline;
+      list-style-type: none;
+      margin: 0 0.5em;
+    }
+    
+      .scrolli-wrapper .scrolli-pager .scrolli-pager-item a {
+        background: url(../images/scrolli-sprite.png) no-repeat -16px 0;
+        display: inline-block;
+        height: 10px;
+        overflow: hidden;
+        text-indent: -999em;
+        width: 10px;
+      }
+        
+    .scrolli-wrapper .scrolli-pager .scrolli-pager-item.current {
+      font-weight: bold;
+    }
+
+      .scrolli-wrapper .scrolli-pager .scrolli-pager-item.current a {
+        background-position: 0 0;
+        color: #000;
+      }
