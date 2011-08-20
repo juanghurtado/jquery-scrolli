@@ -93,7 +93,7 @@ There are also some public methods available if you want to control Scrolli from
 You can call this methods through a `scrolli' data value attached to the Scrolli main element:
 
 ``` javascript
-$('.scrolli').data('scrolli').move_to($('.scrolli .scrolli-element).last());
+$('.scrolli').data('scrolli').move_to($('.scrolli .scrolli-element').last());
 $('.scrolli').data('scrolli').move_to_prev();
 $('.scrolli').data('scrolli').move_to_next();
 ```
