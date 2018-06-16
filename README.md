@@ -100,7 +100,7 @@ $('.scrolli').data('scrolli').move_to_next();
 
 ## Contribute
 
-If you want to contribute in the development of Scrolli, please [fork this project](https://github.com/juanghurtado/jquery-scrolli), add your functionality and send me a pull request. If needed, be sure to add some [Jasmine](http://pivotal.github.com/jasmine/ "Jasmine: BDD for your JavaScript") tests under `/tests/spec/scrolli.js` to make sure everything is ok.
+If you want to contribute in the development of Scrolli, please [fork this project](https://github.com/juanghurtado/jquery-scrolli), add your functionality and send me a pull request. If needed, be sure to add some [Jasmine](https://jasmine.github.io/ "Jasmine: BDD for your JavaScript") tests under `/tests/spec/scrolli.js` to make sure everything is ok.
 
 ## Credits
 
